@@ -1,0 +1,56 @@
+/* BlogList.css */
+.blog{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.blog-list {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-preview {
+    margin-bottom: 20px;
+    background: rgb(50, 50, 50);
+    display: flex;
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+
+  }
+  
+  .blog-preview h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    
+  }
+  
+  .blog-preview p {
+    font-style: italic;
+    color: yellow;
+  }
+  
+  .blog-preview a {
+    text-decoration: none;
+    color: inherit; /* Inherit link color from parent */
+
+  }
+  
+  .blog-preview a:hover {
+    text-decoration: underline;
+  }
+  
